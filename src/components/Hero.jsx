@@ -63,11 +63,11 @@ function Hero() {
             </div>
           </div>
 
-          <aside className="glass-card animate-float overflow-hidden p-0">
+          <aside className="glass-card animate-float overflow-hidden rounded-full w-80 h-80 mx-auto">
             <img
               src={image}
               alt="image"
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover scale-100"
               loading="eager"
             />
           </aside>
